@@ -1,7 +1,11 @@
 package main
 
-import "log"
+import (
+	"github.com/jstone28/changelog/pkg/changelog"
+	"github.com/jstone28/changelog/pkg/git"
+)
 
 func main() {
-	log.Println("Hello World")
+	changelog.Build()
+	git.Calculate()
 }
