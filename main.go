@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	changelog.Build()
+	changelog.Create()
 	git.Calculate()
 }

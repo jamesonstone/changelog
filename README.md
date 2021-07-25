@@ -2,6 +2,12 @@
 
 A CHANGELOG Generator
 
+## Installing
+
+```bash
+go get github.com/jstone28/changelog
+```
+
 ## How to Use
 
 In code:

@@ -2,7 +2,7 @@ package changelog
 
 import "log"
 
-func Build() {
+func Create() {
 	Render()
 	log.Print("create changelog entry")
 }
