@@ -2,4 +2,6 @@
 
 ## Feature
 
-- {{ .ShortHash }} **{{ .ChangeType }}**  {{ .CommitMsg }} [{{ .Scope }}](https://invitae.jira.com/browse/{{ .Scope }})
+- {{ .ShortHash }} - {{ .CommitMsg }} [{{ .Scope }}](https://invitae.jira.com/browse/{{ .Scope }})
+
+## Chore
